@@ -1,0 +1,29 @@
+:root{
+    --sidebar_bg: #EBECF2;
+    --header_border_clr: rgb(210, 210, 210);
+    --plain_white: #ffffff;
+}
+.side_bar{
+    background-color: var(--sidebar_bg);
+}
+.side_bar .top .theme{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 0 6px;
+    border-radius: 20px;
+}
+.side_bar > ul{
+    width: 100%;
+}
+.side_bar > ul li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border:  1px solid transparent;
+    cursor: pointer;
+    padding: 8px 0;
+    transition: .3s;
+}
+.side_bar ul li:not(.side_bar ul li:first-child):hover{
+    background-color: whitesmoke;
+}
